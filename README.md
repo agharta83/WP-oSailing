@@ -1,22 +1,16 @@
-# oSailing
+# Brunch app
 
-## Objectif
+This is a HTML5 application, built with [Brunch](http://brunch.io).
 
-Vous devez réaliser l'intégration de oSailing en utilisant `brunch` et `scss`
-
-![osailing](elements/oSailing-haut.png)
-
-Preview : [partie haute](elements/oSailing-haut.png) - [partie basse](elements/oSailing-bas.png)
-
-Le dossier `images/` continent le logo et l'image principale
-
-## Infos
-
-- Font : Open Sans
-- jQuery, JS Rellax, jQuery Scrollex
-- Couleurs : 
-  - Bleu foncé : #123456
-  - Bleu vif : #55ddff
-  - Bleu contraste : #123789
-  - Gris clair: #ccc
-  - Gris foncé : #666
+## Getting started
+* Install (if you don't have them):
+    * [Node.js](http://nodejs.org): `brew install node` on OS X
+    * [Brunch](http://brunch.io): `npm install -g brunch`
+    * Brunch plugins and app dependencies: `npm install`
+* Run:
+    * `npm start` — watches the project with continuous rebuild. This will also launch HTTP server with [pushState](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history).
+    * `npm run build` — builds minified project for production
+* Learn:
+    * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir.
+    * Place static files you want to be copied from `app/assets/` to `public/`.
+    * [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)
