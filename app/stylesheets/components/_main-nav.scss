@@ -1,0 +1,36 @@
+.main-nav {
+
+    &__list {
+
+        &__item {
+
+            &__link {
+                color: $blue-color-bright;
+                display: block;
+                font-size: 1.2em;
+                padding: ($space-width * 2) 0 $space-width;
+                position: relative;
+                opacity: 0.5;
+                text: {
+                    align: center;
+                    transform: uppercase;
+                };
+
+                &:after {
+                    position: absolute;
+                    background: linear-gradient(to right, $blue-color-dark, $blue-color-bright);
+                    width: 75%;
+                    height: 4px;
+                    bottom: 0;
+                    left: 12.5%;
+                    content: "";
+                  }
+                  
+                &:hover {
+                    text-decoration: none;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

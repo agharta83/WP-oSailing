@@ -1,0 +1,40 @@
+.post {
+
+    &__image {
+        display: block;
+        width: 100%;
+    }
+
+    &__content {
+        padding: $space-width; 
+
+        &__title {
+            font-weight: 400;
+            margin: 0 0 $space-width;
+        }
+
+        &excerpt {
+            color: $blue-color-dark;
+
+            p {
+                margin: $space-width 0;
+                
+                &:first-child {
+                    margin-top: 0;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        &__read-link {
+            display: block;
+            color: $blue-color-bright;
+            margin-top: $space-width;
+        }
+
+    }
+
+}

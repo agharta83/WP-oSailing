@@ -1,0 +1,43 @@
+.main {
+    margin-left: $sidebar-width;
+
+    .posts {
+        align-items: flex-start;
+        display: flex;
+        margin-bottom: $space-width;
+
+        .post {
+            // Inutile avec flex car il calcule automatiquement la largeur des éléments
+            width: calc(100% / 3);
+
+            &__content {
+                border: {
+                    width: 0 0 1px 0;
+                    style: solid;
+                    color: $grey-color-light;
+                }
+            }
+        }
+    }
+
+    .statistics {
+        @include clearfix;
+        border: {
+            bottom: {
+                style: solid;
+                width: $statistics-border-style;
+            };
+            color: $grey-color-light;
+            top: {
+                style: $statistics-border-style;
+                width: $statistics-border-width;
+            }
+        }
+        padding: $space-width 0;
+
+        .statistic {
+            float: left;
+            width: calc(100% / 3);
+        }
+    }
+}

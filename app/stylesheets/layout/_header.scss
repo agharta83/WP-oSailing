@@ -1,0 +1,18 @@
+.header {
+    margin-left: $sidebar-width;
+    height: $header-height;
+    background: {
+        image: url($header-image-url);
+        position: bottom;
+    };
+
+    &__title {
+        margin: 0;
+        color: $header-text-color;
+        border-bottom: 5px solid $header-text-color;
+        width: 310px;
+        line-height: $header-line-height;
+        margin-left: $header-line-height;
+        font-weight: 400;
+    }
+}

@@ -1,0 +1,14 @@
+.footer {
+    margin-left: $sidebar-width;
+    padding: ($space-width * 3);
+    text-align: justify;
+    color: $blue-color-dark;
+
+    p:first-child {
+        margin-top: 0;
+    }
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,14 @@
+.statistic {
+    text-align: center;
+
+    &__text {
+        color: $blue-color-dark;
+        text-transform: uppercase;
+        font-size: 0.8em;
+    }
+
+    &__digit {
+        font-size: 2em;
+    }
+
+}
